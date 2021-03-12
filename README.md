@@ -65,10 +65,10 @@ What makes it an image rather than an blob of bytes is simply that we encode and
 
 1. Examine the following files `image_client.cpp` and `image_server.cpp`
 
-2. Implement the `get_image` function in `image_server.cpp`, this load the contents of the `cat.png` file into a vector of bytes. You may have to `cat.png` the image into the directory in which the program is launched from, i.e. if you launch the program from build, then the image should be copied to this directory.
+2. Implement the `get_image` function in `image_server.cpp`, this load the contents of the `cat.jpg` file into a vector of bytes. You may have to `cat.jpg` the image into the directory in which the program is launched from, i.e. if you launch the program from build, then the image should be copied to this directory.
 
-3. Implement the `save_image` in `image_client.cpp`, this should store the received bytes as an image `copycat.png`.
+3. Implement the `save_image` in `image_client.cpp`, this should store the received bytes as an image `copycat.jpg`.
 
-4. Start the image server and then the image client, does the `copycat.png` appear? If not make the necessary changes to the programs and verify that the image is transmitted.
+4. Start the image server and then the image client, does the `copycat.jpg` appear? If not make the necessary changes to the programs and verify that the image is transmitted.
 
 **Hint you can implement all the code for reading and writing images in `main.cpp` first and integrate later to avoid the hassle of dealing with sockets.**
