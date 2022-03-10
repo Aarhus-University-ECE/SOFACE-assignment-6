@@ -1,6 +1,12 @@
 # SOFACE-assignment-6
 
 **It is strongly recommended to use the VM for this assignment, due to the difficulty of installing third-party packages on non-unix systems.**
+(I got stuck in a rabbit hole trying to install this for windows)
+If you have no virtual machine, the following is needed:
+https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview
+From there you need visual studio code and git (simple google searches should be able to guide you there)
+And then use the install command located lower in this readme for "boost" which we use for networking. 
+
 
 During this exercise we will take a look at how network programming can be implemented in C/C++.
 Specifically we will implment a client-server pattern which allows an client to download an image from a server.
